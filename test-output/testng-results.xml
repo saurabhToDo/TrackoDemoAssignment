@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TrackoTestSuit" duration-ms="230831" started-at="2017-05-01T16:37:59Z" finished-at="2017-05-01T16:41:50Z">
+    <groups>
+    </groups>
+    <test name="Tracko Assignment Signup" duration-ms="126478" started-at="2017-05-01T16:37:59Z" finished-at="2017-05-01T16:40:06Z">
+      <class name="TrackoDemoAssignmentSignup">
+        <test-method status="PASS" signature="initialiZeDriver()[pri:0, instance:TrackoDemoAssignmentSignup@5034c75a]" name="initialiZeDriver" is-config="true" duration-ms="3245" started-at="2017-05-01T22:07:59Z" finished-at="2017-05-01T22:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiZeDriver -->
+        <test-method status="PASS" signature="signUpForTrackoPositive()[pri:1, instance:TrackoDemoAssignmentSignup@5034c75a]" name="signUpForTrackoPositive" duration-ms="24428" started-at="2017-05-01T22:08:03Z" finished-at="2017-05-01T22:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpForTrackoPositive -->
+        <test-method status="PASS" signature="doSignUpForTrackoWithAlreadyRegisterUser()[pri:2, instance:TrackoDemoAssignmentSignup@5034c75a]" name="doSignUpForTrackoWithAlreadyRegisterUser" duration-ms="25264" started-at="2017-05-01T22:08:27Z" finished-at="2017-05-01T22:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSignUpForTrackoWithAlreadyRegisterUser -->
+        <test-method status="PASS" signature="doSignUpForTrackoWithoutMobileNumber()[pri:3, instance:TrackoDemoAssignmentSignup@5034c75a]" name="doSignUpForTrackoWithoutMobileNumber" duration-ms="23233" started-at="2017-05-01T22:08:52Z" finished-at="2017-05-01T22:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSignUpForTrackoWithoutMobileNumber -->
+        <test-method status="PASS" signature="doSignUpForTrackoWithoutEmailId()[pri:4, instance:TrackoDemoAssignmentSignup@5034c75a]" name="doSignUpForTrackoWithoutEmailId" duration-ms="23210" started-at="2017-05-01T22:09:16Z" finished-at="2017-05-01T22:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSignUpForTrackoWithoutEmailId -->
+        <test-method status="PASS" signature="doSignUpForTrackoWithoutName()[pri:5, instance:TrackoDemoAssignmentSignup@5034c75a]" name="doSignUpForTrackoWithoutName" duration-ms="27075" started-at="2017-05-01T22:09:39Z" finished-at="2017-05-01T22:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSignUpForTrackoWithoutName -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:TrackoDemoAssignmentSignup@5034c75a]" name="cleanup" is-config="true" duration-ms="0" started-at="2017-05-01T22:10:06Z" finished-at="2017-05-01T22:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- TrackoDemoAssignmentSignup -->
+    </test> <!-- Tracko Assignment Signup -->
+    <test name="TrackoDemoAssignment Login" duration-ms="104311" started-at="2017-05-01T16:40:06Z" finished-at="2017-05-01T16:41:50Z">
+      <class name="TrackoDemoAssignmentLogin">
+        <test-method status="PASS" signature="initialiZeDriver()[pri:0, instance:TrackoDemoAssignmentLogin@cc285f4]" name="initialiZeDriver" is-config="true" duration-ms="1879" started-at="2017-05-01T22:10:06Z" finished-at="2017-05-01T22:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiZeDriver -->
+        <test-method status="PASS" signature="loginForTrackoPostive()[pri:1, instance:TrackoDemoAssignmentLogin@cc285f4]" name="loginForTrackoPostive" duration-ms="30315" started-at="2017-05-01T22:10:08Z" finished-at="2017-05-01T22:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForTrackoPostive -->
+        <test-method status="PASS" signature="loginForTrackoWithoutUsername()[pri:2, instance:TrackoDemoAssignmentLogin@cc285f4]" name="loginForTrackoWithoutUsername" duration-ms="23862" started-at="2017-05-01T22:10:38Z" finished-at="2017-05-01T22:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForTrackoWithoutUsername -->
+        <test-method status="PASS" signature="loginForTrackoWithoutPassword()[pri:3, instance:TrackoDemoAssignmentLogin@cc285f4]" name="loginForTrackoWithoutPassword" duration-ms="22965" started-at="2017-05-01T22:11:02Z" finished-at="2017-05-01T22:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForTrackoWithoutPassword -->
+        <test-method status="PASS" signature="loginForTrackoWithSQLInjectionAttack()[pri:4, instance:TrackoDemoAssignmentLogin@cc285f4]" name="loginForTrackoWithSQLInjectionAttack" duration-ms="25284" started-at="2017-05-01T22:11:25Z" finished-at="2017-05-01T22:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForTrackoWithSQLInjectionAttack -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:TrackoDemoAssignmentLogin@cc285f4]" name="cleanup" is-config="true" duration-ms="0" started-at="2017-05-01T22:11:50Z" finished-at="2017-05-01T22:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- TrackoDemoAssignmentLogin -->
+    </test> <!-- TrackoDemoAssignment Login -->
+  </suite> <!-- TrackoTestSuit -->
+</testng-results>

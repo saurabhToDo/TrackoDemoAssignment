@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TrackoTestSuit]">
+  <test name="TrackoDemoAssignment Login(failed)">
+    <classes>
+      <class name="TrackoDemoAssignmentLogin">
+        <methods>
+          <include name="initialiZeDriver"/>
+          <include name="loginForTrackoPostive"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- TrackoDemoAssignmentLogin -->
+    </classes>
+  </test> <!-- TrackoDemoAssignment Login(failed) -->
+</suite> <!-- Failed suite [TrackoTestSuit] -->

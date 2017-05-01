@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TrackoTestSuit">
+<test name="Tracko Assignment Signup">
+	<classes>
+		<class name="TrackoDemoAssignmentSignup"/>
+	</classes>
+</test>
+
+ <test name="TrackoDemoAssignment Login">
+	<classes>
+ 		<class name="TrackoDemoAssignmentLogin"/>
+	</classes>
+</test>
+</suite>

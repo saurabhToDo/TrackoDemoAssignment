@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TrackoTestSuit">
+              <span class="suite-name border-passed">TrackoTestSuit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TrackoTestSuit">
+                    <span>S:\TrackoDemo\TrackoDemoAssignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TrackoTestSuit">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TrackoTestSuit">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TrackoTestSuit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TrackoTestSuit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TrackoTestSuit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TrackoTestSuit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TrackoTestSuit" class="hide-methods passed suite-TrackoTestSuit"> (hide)</a> <!-- hide-methods passed suite-TrackoTestSuit -->
+                      <a href="#" panel-name="suite-TrackoTestSuit" class="show-methods passed suite-TrackoTestSuit"> (show)</a> <!-- show-methods passed suite-TrackoTestSuit -->
+                    </span>
+                    <div class="method-list-content passed suite-TrackoTestSuit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrackoTestSuit" title="TrackoDemoAssignmentSignup" hash-for-method="doSignUpForTrackoWithAlreadyRegisterUser">doSignUpForTrackoWithAlreadyRegisterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrackoTestSuit" title="TrackoDemoAssignmentSignup" hash-for-method="doSignUpForTrackoWithoutEmailId">doSignUpForTrackoWithoutEmailId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrackoTestSuit" title="TrackoDemoAssignmentSignup" hash-for-method="doSignUpForTrackoWithoutMobileNumber">doSignUpForTrackoWithoutMobileNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrackoTestSuit" title="TrackoDemoAssignmentSignup" hash-for-method="doSignUpForTrackoWithoutName">doSignUpForTrackoWithoutName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrackoTestSuit" title="TrackoDemoAssignmentLogin" hash-for-method="loginForTrackoPostive">loginForTrackoPostive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrackoTestSuit" title="TrackoDemoAssignmentLogin" hash-for-method="loginForTrackoWithSQLInjectionAttack">loginForTrackoWithSQLInjectionAttack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrackoTestSuit" title="TrackoDemoAssignmentLogin" hash-for-method="loginForTrackoWithoutPassword">loginForTrackoWithoutPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrackoTestSuit" title="TrackoDemoAssignmentLogin" hash-for-method="loginForTrackoWithoutUsername">loginForTrackoWithoutUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TrackoTestSuit" title="TrackoDemoAssignmentSignup" hash-for-method="signUpForTrackoPositive">signUpForTrackoPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TrackoTestSuit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TrackoTestSuit" class="panel TrackoTestSuit">
+          <div class="suite-TrackoTestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TrackoDemoAssignmentLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginForTrackoPostive">
+                  </a> <!-- loginForTrackoPostive -->
+                  <span class="method-name">loginForTrackoPostive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginForTrackoWithSQLInjectionAttack">
+                  </a> <!-- loginForTrackoWithSQLInjectionAttack -->
+                  <span class="method-name">loginForTrackoWithSQLInjectionAttack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginForTrackoWithoutPassword">
+                  </a> <!-- loginForTrackoWithoutPassword -->
+                  <span class="method-name">loginForTrackoWithoutPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginForTrackoWithoutUsername">
+                  </a> <!-- loginForTrackoWithoutUsername -->
+                  <span class="method-name">loginForTrackoWithoutUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrackoTestSuit-class-passed -->
+          <div class="suite-TrackoTestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TrackoDemoAssignmentSignup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSignUpForTrackoWithAlreadyRegisterUser">
+                  </a> <!-- doSignUpForTrackoWithAlreadyRegisterUser -->
+                  <span class="method-name">doSignUpForTrackoWithAlreadyRegisterUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSignUpForTrackoWithoutEmailId">
+                  </a> <!-- doSignUpForTrackoWithoutEmailId -->
+                  <span class="method-name">doSignUpForTrackoWithoutEmailId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSignUpForTrackoWithoutMobileNumber">
+                  </a> <!-- doSignUpForTrackoWithoutMobileNumber -->
+                  <span class="method-name">doSignUpForTrackoWithoutMobileNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSignUpForTrackoWithoutName">
+                  </a> <!-- doSignUpForTrackoWithoutName -->
+                  <span class="method-name">doSignUpForTrackoWithoutName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpForTrackoPositive">
+                  </a> <!-- signUpForTrackoPositive -->
+                  <span class="method-name">signUpForTrackoPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrackoTestSuit-class-passed -->
+        </div> <!-- panel TrackoTestSuit -->
+        <div panel-name="test-xml-TrackoTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">S:\TrackoDemo\TrackoDemoAssignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TrackoTestSuit&quot;&gt;
+  &lt;test name=&quot;Tracko Assignment Signup&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TrackoDemoAssignmentSignup&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tracko Assignment Signup --&gt;
+  &lt;test name=&quot;TrackoDemoAssignment Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TrackoDemoAssignmentLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TrackoDemoAssignment Login --&gt;
+&lt;/suite&gt; &lt;!-- TrackoTestSuit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TrackoTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TrackoTestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Tracko Assignment Signup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TrackoDemoAssignment Login (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TrackoTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TrackoTestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TrackoTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TrackoTestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TrackoTestSuit');
+function tableData_TrackoTestSuit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginForTrackoPostive')
+data.setCell(0, 2, 'TrackoDemoAssignmentLogin')
+data.setCell(0, 3, 30315);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'doSignUpForTrackoWithoutName')
+data.setCell(1, 2, 'TrackoDemoAssignmentSignup')
+data.setCell(1, 3, 27075);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginForTrackoWithSQLInjectionAttack')
+data.setCell(2, 2, 'TrackoDemoAssignmentLogin')
+data.setCell(2, 3, 25284);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doSignUpForTrackoWithAlreadyRegisterUser')
+data.setCell(3, 2, 'TrackoDemoAssignmentSignup')
+data.setCell(3, 3, 25264);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signUpForTrackoPositive')
+data.setCell(4, 2, 'TrackoDemoAssignmentSignup')
+data.setCell(4, 3, 24428);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginForTrackoWithoutUsername')
+data.setCell(5, 2, 'TrackoDemoAssignmentLogin')
+data.setCell(5, 3, 23862);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'doSignUpForTrackoWithoutMobileNumber')
+data.setCell(6, 2, 'TrackoDemoAssignmentSignup')
+data.setCell(6, 3, 23233);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'doSignUpForTrackoWithoutEmailId')
+data.setCell(7, 2, 'TrackoDemoAssignmentSignup')
+data.setCell(7, 3, 23210);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginForTrackoWithoutPassword')
+data.setCell(8, 2, 'TrackoDemoAssignmentLogin')
+data.setCell(8, 3, 22965);
+window.suiteTableData['TrackoTestSuit']= { tableData: data, tableDiv: 'times-div-TrackoTestSuit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-TrackoTestSuit">
+              </div> <!-- times-div-TrackoTestSuit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TrackoTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TrackoTestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TrackoTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TrackoTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TrackoDemoAssignmentSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialiZeDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">signUpForTrackoPositive</span>
+                <span class="method-start">3252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doSignUpForTrackoWithAlreadyRegisterUser</span>
+                <span class="method-start">27682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doSignUpForTrackoWithoutMobileNumber</span>
+                <span class="method-start">52948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doSignUpForTrackoWithoutEmailId</span>
+                <span class="method-start">76183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doSignUpForTrackoWithoutName</span>
+                <span class="method-start">99394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">126469 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TrackoDemoAssignmentLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialiZeDriver</span>
+                <span class="method-start">126512 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginForTrackoPostive</span>
+                <span class="method-start">128392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginForTrackoWithoutUsername</span>
+                <span class="method-start">158708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginForTrackoWithoutPassword</span>
+                <span class="method-start">182571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginForTrackoWithSQLInjectionAttack</span>
+                <span class="method-start">205537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">230822 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
